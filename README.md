@@ -23,8 +23,7 @@ The last dfitspy version is v19.1.5 and is available in the pypi test repository
 
      pip install -i https://test.pypi.org/simple/ dfitspy --user
 
-Using this command will allow you not to have to install any other package. Pip will install what is mis
-sing for you.
+Using this command will allow you not to have to install any other package. Pip will install what is missing for you.
 
 
 ----
