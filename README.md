@@ -1,7 +1,7 @@
 What is dfitspy?
 ================
 
-The full documentation can be found here: https://astrom-tom.github.io/dfitspy/build/html/index.html
+The full documentation can be found [here](https://romain-thomas-shef.github.io/dfitspy/).
 
 
 The FITS (Flexible Image Transport System) is one of the most used format in astronomy [https://fits.gsfc.nasa.gov/fits_documentation.html]. It is used to store a lot of different types of data such as 1D or 2D spectra, 3D data cubes. The FITS files are built with two components. The data themselves are stored as tables and contains any types of data. Then a header is built containing set of keywords-value pairs aiming at describing the data themselves. 
