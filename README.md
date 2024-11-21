@@ -32,7 +32,7 @@ Using this command will allow you not to have to install any other package. Pip 
 dfitspy is not perfect! It has been primarily developed for my private research and I decided to release 
 in the spirit of making the research process as transparent as possible and in the hope it can be used by
 other people. If you have any comment or anything you would like to be added to dfitspy, or, even better,
-if you want to modify you can either do it yourself or please feel free to contact me! ---> **the.spartan.proj@gmail.com**
+if you want to modify you can either do it yourself or please feel free to contact me! ---> **romain.thomas@sheffield.ac.uk*
 
 ----
 
