@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dfitspy"
+version = "25.1.1"
+requires-python = ">=3.10"
+authors = [{ name = "R. Thomas", email = "romain.thomas@sheffield.ac.uk" }]
+dependencies = ["numpy >= 2.2.1",
+    		    "astropy >= 7.0",
+                "python-magic >= 0.4.27"]
+
+[project.urls]
+repository = "https://github.com/Romain-Thomas-Shef/dfitspy"
+homepage = "https://romain-thomas-shef.github.io/dfitspy/build/html/index.html"
+
+
+[project.scripts]
+dfitspy = "dfitspy.__main__:main"
+
+[tool.hatch.build.targets.sdist]
+include = ["/dfitspy"]
