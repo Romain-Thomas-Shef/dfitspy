@@ -1,7 +1,7 @@
 LICENSE
 MANIFEST.in
 README.md
-setup.py
+pyproject.toml
 dfitspy/__info__.py
 dfitspy/__init__.py
 dfitspy/__main__.py
@@ -228,6 +228,7 @@ dfitspy/docs/source/modules.rst
 dfitspy/docs/source/result.jpg
 dfitspy/docs/source/usage.rst
 dfitspy/docs/source/usage_module.rst
+dfitspy/tests/make_fake_fits.py
 dfitspy/tests/pylintrc
 dfitspy/tests/test.fits
 dfitspy/tests/test2.fits

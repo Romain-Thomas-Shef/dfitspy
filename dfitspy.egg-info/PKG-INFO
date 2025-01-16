@@ -1,10 +1,11 @@
-Metadata-Version: 1.2
+Metadata-Version: 2.2
 Name: dfitspy
-Version: 20.7.1
-Summary: A dfits|fitsio implementation in python
-Home-page: https://astrom-tom.github.io/dfitspy/build/html/index.html
-Author: Romain Thomas
-License: GNU GPL v3
-Description: UNKNOWN
-Platform: UNKNOWN
-Requires-Python: >=3.6
+Version: 25.1.1
+Author-email: "R. Thomas" <romain.thomas@sheffield.ac.uk>
+Project-URL: repository, https://github.com/Romain-Thomas-Shef/dfitspy
+Project-URL: homepage, https://romain-thomas-shef.github.io/dfitspy/build/html/index.html
+Requires-Python: >=3.10
+License-File: LICENSE
+Requires-Dist: numpy>=2.2.1
+Requires-Dist: astropy>=7.0
+Requires-Dist: python-magic>=0.4.27
