@@ -1,6 +1,6 @@
 .. _installation:
 
-|JOSS| |Python36| |Licence|
+|JOSS| |Licence|
 
 .. |JOSS| image:: http://joss.theoj.org/papers/10.21105/joss.01249/status.svg
    :target: https://doi.org/10.21105/joss.01249
@@ -8,28 +8,21 @@
 .. |Licence| image:: https://img.shields.io/badge/License-GPLv3-blue.svg
       :target: http://perso.crans.org/besson/LICENSE.html
 
-.. |Opensource| image:: https://badges.frapsoft.com/os/v1/open-source.svg?v=103
-      :target: https://github.com/ellerbrock/open-source-badges/
-
-.. |Python36| image:: https://img.shields.io/badge/python-3.6-blue.svg
-.. _Python36: https://www.python.org/downloads/release/python-360/
-
-
 Installation
 ============
 
-dfitspy is written in python 3.6 (and work in python 3.8.2). It needs only the following libraries:
+dfitspy was developed in python 3.6 and latest release works with 3.12. It needs only the following libraries:
 
-* Numpy v1.14.3 or higher: Numerical python
-* astropy v4.0.1: FITS reader library
-* python-magic v0.4.15: file type checker
+* Numpy v2.2.2 or higher: Numerical python
+* astropy v7.0: FITS reader library
+* python-magic v0.4.27: file type checker
 
 Other libraries are used, but they are all part of the standard python library. As such no extra installations are needed.
 
 .. warning ::
 
         for Mac user you might get problem with the libmagic library.
-        You might want to install py37-magic from macports.
+        You might want to install is from brew with ``brew install libmagic``.
         Thanks to A. Mehner for this.
 
 1-from the python repository

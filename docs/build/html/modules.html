@@ -1,92 +1,48 @@
 
 
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<html class="writer-html5" lang="en" data-content_root="./">
 <head>
-  <meta charset="utf-8">
-  
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>dfitspy API functions &mdash; dfitspy 20.7.0 documentation</title>
-  
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=03e43079" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
 
   
-  
-  
-  
-
-  
-  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
-  
-    
-      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
-        <script src="_static/jquery.js"></script>
-        <script src="_static/underscore.js"></script>
-        <script src="_static/doctools.js"></script>
-        <script src="_static/language_data.js"></script>
-    
-    <script type="text/javascript" src="_static/js/theme.js"></script>
-
-    
-
-  
-  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
-  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <script src="_static/jquery.js?v=5d32c60e"></script>
+      <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="_static/documentation_options.js?v=c7b4c2c5"></script>
+      <script src="_static/doctools.js?v=9bcbadda"></script>
+      <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/js/theme.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="get files and keys functions" href="dfitspy.html" />
     <link rel="prev" title="dfitspy as a Python Module" href="usage_module.html" /> 
 </head>
 
-<body class="wy-body-for-nav">
-
-   
+<body class="wy-body-for-nav"> 
   <div class="wy-grid-for-nav">
-    
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-scroll">
         <div class="wy-side-nav-search" >
-          
 
           
-            <a href="index.html" class="icon icon-home"> dfitspy
           
-
-          
-            
-            <img src="_static/dfitspy.png" class="logo" alt="Logo"/>
-          
+          <a href="index.html" class="icon icon-home">
+            dfitspy
+              <img src="_static/logo25.png" class="logo" alt="Logo"/>
           </a>
-
-          
-            
-            
-              <div class="version">
-                20.7
-              </div>
-            
-          
-
-          
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
-    <input type="text" name="q" placeholder="Search docs" />
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
     <input type="hidden" name="check_keywords" value="yes" />
     <input type="hidden" name="area" value="default" />
   </form>
 </div>
-
-          
-        </div>
-
-        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
-          
-            
-            
-              
-            
-            
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
               <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="index.html">Home</a></li>
 <li class="toctree-l1"><a class="reference internal" href="installation.html">Installation</a></li>
@@ -102,128 +58,87 @@
 <li class="toctree-l1"><a class="reference internal" href="dfits_fitsort.html">dfits and fitsort</a></li>
 </ul>
 
-            
-          
         </div>
       </div>
     </nav>
 
-    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
-
-      
-      <nav class="wy-nav-top" aria-label="top navigation">
-        
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
           <a href="index.html">dfitspy</a>
-        
       </nav>
 
-
       <div class="wy-nav-content">
-        
         <div class="rst-content">
-        
-          
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div role="navigation" aria-label="breadcrumbs navigation">
-
+          <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
-    
-      <li><a href="index.html">Docs</a> &raquo;</li>
-        
-      <li>dfitspy API functions</li>
-    
-    
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">dfitspy API functions</li>
       <li class="wy-breadcrumbs-aside">
-        
-            
             <a href="_sources/modules.rst.txt" rel="nofollow"> View page source</a>
-          
-        
       </li>
-    
   </ul>
-
-  
   <hr/>
 </div>
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
-            
-  <p><a class="reference external" href="https://doi.org/10.21105/joss.01249"><img alt="JOSS" src="http://joss.theoj.org/papers/10.21105/joss.01249/status.svg" /></a> <img alt="Python36" src="https://img.shields.io/badge/python-3.6-blue.svg" /> <a class="reference external" href="http://perso.crans.org/besson/LICENSE.html"><img alt="Licence" src="https://img.shields.io/badge/License-GPLv3-blue.svg" /></a></p>
-<div class="section" id="dfitspy-api-functions">
-<h1>dfitspy API functions<a class="headerlink" href="#dfitspy-api-functions" title="Permalink to this headline">¶</a></h1>
+             
+  <p><a class="reference external" href="https://doi.org/10.21105/joss.01249"><img alt="JOSS" src="http://joss.theoj.org/papers/10.21105/joss.01249/status.svg" /></a> <a class="reference external" href="http://perso.crans.org/besson/LICENSE.html"><img alt="Licence" src="https://img.shields.io/badge/License-GPLv3-blue.svg" /></a></p>
+<section id="dfitspy-api-functions">
+<h1>dfitspy API functions<a class="headerlink" href="#dfitspy-api-functions" title="Link to this heading"></a></h1>
 <div class="toctree-wrapper compound">
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="dfitspy.html">get files and keys functions</a></li>
-<li class="toctree-l1"><a class="reference internal" href="dfitspy.html#module-dfitspy.readfits">readfits functions</a></li>
-<li class="toctree-l1"><a class="reference internal" href="dfitspy.html#module-dfitspy.display">display function</a></li>
-<li class="toctree-l1"><a class="reference internal" href="dfitspy.html#module-dfitspy.tests">tests module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="dfitspy.html">get files and keys functions</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="dfitspy.html#dfitspy.get_files_and_keys.get_files"><code class="docutils literal notranslate"><span class="pre">get_files()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="dfitspy.html#dfitspy.get_files_and_keys.get_keys"><code class="docutils literal notranslate"><span class="pre">get_keys()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="dfitspy.html#module-dfitspy.readfits">readfits functions</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="dfitspy.html#dfitspy.readfits.dfitsort"><code class="docutils literal notranslate"><span class="pre">dfitsort()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="dfitspy.html#dfitspy.readfits.get_all_keyword"><code class="docutils literal notranslate"><span class="pre">get_all_keyword()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="dfitspy.html#module-dfitspy.display">display function</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="dfitspy.html#dfitspy.display.dfitsort_view"><code class="docutils literal notranslate"><span class="pre">dfitsort_view()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="dfitspy.html#dfitspy.display.keywords_view"><code class="docutils literal notranslate"><span class="pre">keywords_view()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="dfitspy.html#module-dfitspy.tests">tests module</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="dfitspy.html#dfitspy.tests.test"><code class="docutils literal notranslate"><span class="pre">test()</span></code></a></li>
+</ul>
+</li>
 </ul>
 </div>
-</div>
+</section>
 
 
            </div>
-           
           </div>
-          <footer>
-  
-    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
-      
-        <a href="dfitspy.html" class="btn btn-neutral float-right" title="get files and keys functions" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
-      
-      
-        <a href="usage_module.html" class="btn btn-neutral float-left" title="dfitspy as a Python Module" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
-      
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="usage_module.html" class="btn btn-neutral float-left" title="dfitspy as a Python Module" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="dfitspy.html" class="btn btn-neutral float-right" title="get files and keys functions" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
-  
 
   <hr/>
 
   <div role="contentinfo">
-    <p>
-        &copy; Copyright 2018-20, R. Thomas
-
-    </p>
+    <p>&#169; Copyright 2018-20, R. Thomas.</p>
   </div>
-  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
 
 </footer>
-
         </div>
       </div>
-
     </section>
-
   </div>
-  
-
-
-  <script type="text/javascript">
+  <script>
       jQuery(function () {
           SphinxRtdTheme.Navigation.enable(true);
       });
-  </script>
-
-  
-  
-    
-   
+  </script> 
 
 </body>
 </html>
