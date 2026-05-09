@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: If you use this software, please cite both the article from preferred-citation and the software itself.
+authors:
+  - family-names: Thomas
+    given-names: Romain
+title: 'dfitspy: a dfits|fitsort implementation in python'
+version: 1.0.0
+url: https://doi.org/10.21105/joss.01249
+doi: 10.21105/joss.01249
+date-released: '2019-05-09'
+preferred-citation:
+  authors:
+    - family-names: Thomas
+      given-names: Romain
+  title: 'dfitspy: a dfits|fitsort implementation in python'
+  doi: 10.21105/joss.01249
+  url: https://doi.org/10.21105/joss.01249
+  type: article-journal
+  pages: '1249'
+  year: '2019'
+  conference: {}
+  publisher:
+    name: The Open Journal
